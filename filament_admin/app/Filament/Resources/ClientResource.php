@@ -39,7 +39,7 @@ class ClientResource extends Resource
                 
                 TextColumn::make('email')->label('Email')->icon('heroicon-m-envelope')->iconColor('primary'),
                 
-                TextColumn::make('password'),
+                TextColumn::make('password')->hidden(),
             ])
             ->filters([
                 //
